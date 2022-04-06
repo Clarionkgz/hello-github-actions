@@ -27,7 +27,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     font-family: 'Poppins', sans-serif;
-    width: 1600px;
 }
 ol, ul {
 	list-style: none;
@@ -46,16 +45,22 @@ table {
 }
 
 .container{
-width: 1340px;
-border: 1px solid #000 1px;
+width: 100%;
+max-width: 1340px;
+height: 2000px;
 margin: 0 auto;
 }
+
 
 .nav{
     display: flex;
     justify-content: space-between;
-    margin-top: 55px;
+    margin-top: 30px;
     align-items: center;
+}
+
+.nav__logo{
+    margin-right: 5px;
 }
 
 .nav__logo-img{
@@ -63,13 +68,9 @@ margin: 0 auto;
     height: 40px;
 }
 
-.nav__ul-container{
-    width: 517px;
-    height: 26px;
-    /* border: 1px solid #000; */
-}
 .nav__ul{
     display: flex;
+    padding-left: 20px;
 }
 
 .nav__list:not(:first-child){
@@ -85,21 +86,25 @@ color: #263238;
 }
 
 .nav__button-left{
-width: 220px;
-height: 70px;
 display: flex;
 justify-content: center;
 align-items: center;
 border: 2px solid #000;
 border-radius: 5px;
+margin-top: 7px;
+margin-left: 35px;
+margin-right: 1px;
 }
 .nav__button{
+padding: 15px 55px ;
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 36px;
 color: #000000;
 }
+
+
 
 /* ----------------nav finish--------------------- */
 /* -------------------header---------------------- */
@@ -110,8 +115,9 @@ color: #000000;
 }
 
 .content{
-    margin-top: 129px;
+    margin-top: 103px;
     margin-bottom: 40px;
+    margin-left: 0;
 }
 
 .icon-wrapper{
@@ -119,7 +125,8 @@ color: #000000;
 }
 
 .content__h1{
-    margin-right: 38px;
+    margin-right: 40px;
+    margin-left: -7px;
     margin-bottom: 40px;
     width: 386px;
     font-style: normal;
@@ -130,6 +137,7 @@ color: #000000;
 
 
 .content__p{
+margin-left: -10px;
 width: 526px;
 margin-bottom: 61px;
 font-weight: 400;
@@ -139,6 +147,7 @@ color: #8F95A5;
 }
 
 .content__tap{
+    margin-left: -9px;
 width: 438px;
 height: 118px;
 background: #263238;
@@ -156,7 +165,7 @@ color: #FFFFFF;
 }
 
 .head-img{
-    justify-self: end;
+ margin-right: -15px;
 }
 
 .head-img__file{
@@ -166,72 +175,9 @@ color: #FFFFFF;
 }
 
 .icon{
-margin-top: 95px;
-width: 85.24px;
-height: 85.24px;
-margin-right: 143.25px;
+margin-top: 93.5px;
+width: 113px;
+height: 113px;
+margin-right: 136px;
 }
 
-/* --------------------finish header-------------------- */
-/* --------------------footer--------------------------- */
-
-.footer{
-    margin-top: 261px;
-}
-
-.hero-wrapper{
-    display: flex;
-}
-
-.footer-img{
-width: 477px;
-height: 429px;
-margin-right: 111px;
-}
-
-.title__h1{
-font-weight: 600;
-font-size: 48px;
-line-height: 80px;
-color: #000000;
-margin-bottom: 37px;}
-
-.title__p{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #8F95A5;
-margin-bottom: 52px;}
-
-.form{
-    height: 80px;
-    width: 450px;
-    border-radius: 10px;
-    font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #8F95A5;
-}
-  
-  input:focus::placeholder {
-    transform: translateX(33px);
-  }
-
-
-    .button-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-        width: 264px;
-        height: 80px;
-        background: #263238;
-        border-radius: 10px;
-        }
-
-.button2{
-font-weight: 500;
-font-size: 20px;
-line-height: 30px;
-color: #FFFFFF;
-        }
-     
